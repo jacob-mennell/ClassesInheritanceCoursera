@@ -12,6 +12,6 @@ class Point:
         return self.y
 
 
-point1 = Point(9,100)
+point1 = Point(10,100)
 
 print(point1.getX(),point1.getY())
