@@ -280,3 +280,16 @@ class Flying_Pokemon(Pokemon):
 
 p1 = Flying_Pokemon('Pika')
 print(p1.opponent())
+
+
+
+numb = [6, 0, 36, 8, 2, 36, 0, 12, 60, 0, 45, 0, 3, 23]
+remainder = []
+
+for x in numb:
+    if x % 36 == 0:
+        remainder.append(x)
+    else:
+        remainder.append('Error')
+
+remainder
