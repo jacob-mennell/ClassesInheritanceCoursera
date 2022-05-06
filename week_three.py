@@ -44,7 +44,7 @@ for x in numb:
         c = 36 % x
         remainder.append(c)
     except:
-        remainder.append('Error')
+        remainder.append('Error') #error when try to divide by zero - ZeroDivisionError
 
 
 """Provided is buggy code, insert a try/except so that the code passes."""
